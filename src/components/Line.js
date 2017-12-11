@@ -5,36 +5,36 @@ extends: Bar,
   mounted () {
 
     this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      labels: ['1° Trimestre', '2° Trimestre', '3° Trimestre', '4° Trimestre'],
       datasets: [
         {
           label: 'Óleo',
           backgroundColor: '#85c226',
-          data: [40, 39, 10, 40, 39, 80, 40]
+          data: [100, 140, 140, 130]
         },{
           label: 'Papel',
           backgroundColor: '#dc3912',
-          data: [60, 55, 32, 10, 2, 12, 53]
+          data: [1689, 34, 596, 748]
         },{
           label: 'Papelão',
           backgroundColor: '#7ac49f',
-          data: [40, 39, 10, 40, 39, 80, 40]
+          data: [1089, 1135, 851, 1033]
         },{
           label: 'Plástico Duro',
           backgroundColor: '#fff974',
-          data: [60, 55, 32, 10, 2, 12, 53]
+          data: [793, 820, 922, 631]
         },{
           label: 'Tetra Pak',
           backgroundColor: '#00923f',
-          data: [40, 39, 10, 40, 39, 80, 40]
+          data: [225, 222, 162, 214]
         },{
           label: 'Alumínio',
           backgroundColor: '#e67816',
-          data: [60, 55, 32, 10, 2, 12, 53]
+          data: [68, 209, 53, 45]
         },{
           label: 'Pet',
           backgroundColor: '#ffffff',
-          data: [60, 55, 32, 10, 2, 12, 53]
+          data: [776, 883, 488, 528]
         }
       ]
     }, {responsive: true, maintainAspectRatio: false})
